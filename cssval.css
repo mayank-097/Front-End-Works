@@ -1,0 +1,28 @@
+.leftinput{
+    margin-left: 30px;
+    text-align: center;
+    width:50%;
+    padding : 20px;
+    background-color: darkgoldenrod;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    float: left;
+}
+
+.listitem{
+    background-color: darkorchid;
+    margin-right: 30px;
+    width: 40%;
+    float: right;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+    border-color:brown;
+    border-radius: 10%;
+}
+
+h2{
+    color:wheat;
+    text-decoration: underline;
+}

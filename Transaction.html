@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rapipay Transaction</title>
+    <style>
+        .headagent {
+
+            background-color: chocolate;
+            color: lightgrey;
+            text-align: center;
+
+        }
+
+        .content {
+            padding-top: 10px;
+            height: auto;
+            width: auto;
+            background-image: url('rapipay-img.png');
+            background-size: auto;
+
+
+        }
+
+        .blurback {
+            border-radius: 20px;
+            border-style: solid;
+            border-color: yellow;
+            width: fit-content;
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+
+            color: magenta
+        }
+
+        input[type=submit] {
+
+            background-color: pink;
+            border-radius: 25%;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headagent">
+        <h1>WELCOME TO TRANSACTION PAGE!!!</h1>
+
+    </div>
+    <center>
+        <div class="content">
+            <div class="blurback">
+                <h2>ENTER THE DETAILS OF TRANSACTION</h2>
+
+                <table>
+                    <tr>
+                        <td>Transaction Id </td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Transaction Date </td>
+                        <td><input type="date"> </td>
+                    </tr>
+                    <tr>
+                        <td>Agent id </td>
+                        <td><input type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td>Client id </td>
+                        <td><input type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td>Amount Of Transaction </td>
+                        <td><input type="number"> </td>
+                    </tr>
+                    <tr>
+                        <td>Transaction Type </td>
+                        <td><input type="text"> </td>
+                    </tr>
+                </table>
+                <input type="submit" value="SUBMIT" />
+            </div>
+        </div>
+    </center>
+
+</body>
+
+</html>

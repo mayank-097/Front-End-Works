@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        doThings();
+        function doThings() {
+
+            var myPromise = fetch('https://jsonplaceholder.typicode.com/todos/220')
+                .then(response => {
+                if(response.ok){
+                    console.log("Success")
+                    
+                return response.json()
+                }
+                else{
+                    console.log("ERROR")
+                }
+                
+                
+                })
+                .then(data => console.log(data));
+            
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>

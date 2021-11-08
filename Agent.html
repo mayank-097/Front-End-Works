@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rapipay Agent</title>
+    <style>
+        .headagent {
+
+            background-color: chocolate;
+            color: lightgrey;
+            text-align: center;
+
+        }
+
+        .content {
+            padding-top: 10px;
+            height: auto;
+            width: auto;
+            background-image: url('rapipay-img1.png');
+            background-size: auto;
+
+
+
+
+        }
+
+        .blurback {
+            border-radius: 20px;
+            border-style: solid;
+            border-color: yellow;
+            width: fit-content;
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+
+            color: darkred;
+        }
+
+        input[type=submit] {
+
+            background-color: pink;
+            border-radius: 25%;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headagent">
+        <h1>WELCOME AGENT !!!</h1>
+
+    </div>
+    <center>
+        <div class="content">
+            <div class="blurback">
+                <h2>ENTER THE DETAILS AGENT</h2>
+
+                <table >
+                    <tr>
+                        <td>Agent Id </td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Agent Name </td>
+                        <td><input type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td>Agent State </td>
+                        <td><input type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td>Agent Bank Name </td>
+                        <td><input type="radio" name="BOB">
+                            <label>BOB</label><br>
+                            <input type="radio" name="SBI">
+                            <label>SBI</label><br>
+                            <input type="radio" name="ICICI">
+                            <label>ICICI</label><br>
+                            <input type="radio" name="HDFC">
+                            <label>HDFC</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Agent Bank Account Number </td>
+                        <td><input type="number"> </td>
+                    </tr>
+                    <tr>
+                        <td>Agent Wallet Balance </td>
+                        <td><input type="number"> </td>
+                    </tr>
+                    <tr>
+                        <td>Agent Phone Number </td>
+                        <td><input type="number"> </td>
+                    </tr>
+
+                </table>
+                <input type="submit" value="SUBMIT " />
+            </div>
+        </div>
+
+    </center>
+
+</body>
+
+</html>

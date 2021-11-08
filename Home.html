@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Rapipay Home Page
+    </title>
+    <style>
+        .nav {
+            height: 10%;
+            width: auto;
+            background-color: peru;
+
+        }
+
+        .rig {
+            padding-right: 4%;
+            display: inline-block;
+            text-align: right;
+            width: 30%;
+        }
+
+        .lef {
+            padding-left: 4%;
+            display: inline-block;
+            text-align: left;
+            width: 30%;
+        }
+
+        .cen {
+            display: inline-block;
+            text-align: center;
+            width: 30%;
+        }
+
+        .mainhead {
+            padding-left: 5%;
+
+            display: inline-block;
+            width: 45%;
+
+
+
+            text-align: left;
+            color: #00FFFF;
+        }
+
+        .login-register {
+            padding-right: 5%;
+            padding-top: 2%;
+            float: right;
+            width: 45%;
+            text-align: right;
+            color: #000FFF;
+        }
+
+
+
+        .content {
+            background-image: url('rapipay-img.png');
+            background-size: auto;
+            padding-top: 50px;
+            height: auto;
+            width: auto;
+
+        }
+
+        .blurback {
+            border-radius: 20px;
+            border-style: solid;
+            border-color: yellow;
+            width: fit-content;
+            backdrop-filter: blur(10px);
+        }
+
+
+        input[type=submit] {
+
+            background-color: pink;
+            border-radius: 25%;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="mainhead">
+            <h1> RAPIPAY ONLINE APP</h1>
+        </div>
+        <div class="login-register">
+            <a style="padding:2%" href="Register.html" target="_blank"> REGISTER </a>
+            <a style="padding:2%" href="Login.html" target="_blank"> LOGIN </a>
+        </div>
+        <div>
+            <div class="lef">
+                <h3><a href="Agent.html" target="_blank">AGENT</a></h3>
+            </div>
+            <div class="cen">
+                <h3><a href="Client.html" target="_blank">CLIENT</a></h3>
+            </div>
+            <div class="rig">
+                <h3><a href="Transaction.html" target="_blank">TRANSACTION</a></h3>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div class="content">
+
+                <table class="blurback">
+                    <tr>
+                        <td>Agent Id </td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Client Id </td>
+                        <td><input type="number"> </td>
+                    </tr>
+                    <tr>
+                        <td>Transaction Pin </td>
+                        <td><input type="number"> </td>
+                    </tr>
+
+                </table>
+                <input type="submit" value="Fund Transfer" />
+           
+        </div>
+
+    </center>
+
+</body>
+
+</html>
