@@ -1,2 +1,2 @@
 # Front-End-Works
-Front End Works(HTML , CSS , JAVASCRIPT)
+Front End Works(HTML , CSS , JAVASCRIPT , TYPESCRIPT)
